@@ -1,0 +1,59 @@
+<block wx:for="{{list}}"  wx:key="nickName">
+ <!--relationship= 1为仅我关注 2为互相关注 3为仅关注我 -->
+ <view wx:if="{{item.relationship==3}}">
+   <view class="items" >
+    
+    <view class='img'>
+      <image src='{{item.avatarUrl}}' style="width:70px;height:70px;"></image>
+    </view>
+
+    <view class="intro">
+      <view class="name">
+        {{item.nickName}}
+      </view>
+      <view class="id">
+        {{item.schoolName}}
+      </view>
+      <view class="more">
+        {{origlist.sex}}
+        {{item.location}}
+      </view>
+    </view>
+
+    <button class='but'  data-index="{{item.description}}" data-id='{{item.openId}}'data-relation='{{item.relationship}}' bindtap='add'>{{item.description}}</button>
+  
+
+   </view>
+
+   <view class="div"></view>
+ </view>
+
+ <view wx:elif="{{item.relationship==2}}">
+   <view class="items" >
+    
+    <view class='img'>
+      <image src='{{item.avatarUrl}}' style="width:70px;height:70px;"></image>
+    </view>
+
+    <view class="intro">
+      <view class="name">
+        {{item.nickName}}
+      </view>
+      <view class="id">
+        {{item.schoolName}}
+      </view>
+      <view class="more">
+        {{origlist.sex}}
+        {{item.location}}
+      </view>
+    </view>
+
+    <button class='but' >{{item.description}}</button>
+  
+
+   </view>
+
+   <view class="div"></view>
+ </view>
+
+</block>

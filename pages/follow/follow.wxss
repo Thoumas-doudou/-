@@ -1,0 +1,55 @@
+/* pages/follow/follow.wxss */ 
+.items {
+  display: flex;
+  flex-direction: row;
+}
+
+.img {
+  margin: 15rpx 0 15rpx 15rpx;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.name {
+  margin-top: 10rpx;
+  width: 70%;
+  font-size: 38rpx;
+  font-weight: bold;
+}
+
+.id {
+  font-size: 25rpx;
+  margin-top: 15rpx;
+}
+
+.more{
+  font-size: 25rpx;
+  margin-top: 15rpx;
+}
+
+.but {
+  position: absolute;
+  font-size: 25rpx;
+  margin-left: 600rpx;
+  margin-top: 55rpx;
+  border: red;
+  color: red;
+}
+ 
+.ok {
+  position: absolute;
+  font-size: 25rpx;
+  margin-left: 600rpx;
+  margin-top: 55rpx;
+  color: rgba(255, 0, 0, 0.473);
+}
+
+.div {
+  height: 5px;
+  background-color: #eee;
+}

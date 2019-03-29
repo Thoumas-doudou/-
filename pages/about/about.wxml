@@ -1,0 +1,29 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+
+  <view class="about">
+
+   <text>感谢使用</text>
+   <text class="title">tips：点击[关注我的]中"茄茄","萌萌"的关注键，观察[我关注的][互相关注]的动态变化</text>
+  </view>
+
+  <view class="about aboutme">
+    <text class="title">开发者：孟佳毅</text>
+    <text>BUPT-计算机学院-大二</text>
+    <text class="title">邮箱：1043535447@qq.com</text>
+    <text>ReadMe </text>
+    <text class="title"> 1.用到的知识包括： </text>
+    <text class="title">    1> require获取数据，getApp获取全局变量、全局方法 </text>
+    <text class="title">    2> 逻辑层与渲染层之间数据的传递，修改与方法的调用 </text>
+    <text class="title">    3> tabbar页面数据刷新</text>
+    <text class="title">    4> setData动态改变数组元素 </text>
+    <text class="title">    5> js\wxml\wxss文件的基本应用 </text>
+    <text class="title">    6> console.log等调试方法</text>
+    <text class="title">    7> 小程序版本迭代等 </text>
+    <text class="title"> 2.关于没有使用服务器数据： </text>
+    <text class="title">   1>给定地址中数据不够丰满，降低观赏性、与朋友的互动性甚至增加调试难度</text>
+    <text class="title">   2>给定的curl -X POST指令只能创建仅含openId的单个用户数据，与给定的用户组数据不一样，两种数据的修改逻辑可能不一样</text>
+    <text class="title">   3>但是在过程中学习了wx.request等网络相关api，以及基本curl指令和postman的使用</text>
+  </view>
+
+</view>

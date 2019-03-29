@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/follow/follow",
+    "pages/followed/followed",
+    "pages/mutual/mutual",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#56abe4",
+    "backgroundColor": "#ddd",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath":"pages/follow/follow",
+        "text":"我关注的"
+      },
+      {
+        "pagePath": "pages/followed/followed",
+        "text": "关注我的"
+      },
+      {
+        "pagePath": "pages/mutual/mutual",
+        "text": "互相关注"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "开发者"
+      }
+    ],
+    "position": "top"
+  }
+}
